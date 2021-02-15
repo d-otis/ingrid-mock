@@ -1,7 +1,10 @@
 /* GENERAL */
 .ingrid-name {
+
+  object-fit: contain;
   width: 75%;
-  height: auto;
+  /* max-height: 173px;
+  max-width: 1512px; */
   /* display: inline-block; */
 }
 
