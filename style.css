@@ -97,3 +97,26 @@ article.single-card .card-title {
 #bio .card-title {
   font-family: 'Lato', sans-serif;
 }
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 576px) {
+  .test {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    display: none;
+  }
+
+  .navbar {
+    /* flex-wrap: nowrap; */
+  }
+
+  .ingrid-sm {
+    object-fit: contain;
+    display: inline;
+    align-self: center
+  }
+}
