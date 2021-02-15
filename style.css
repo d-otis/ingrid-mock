@@ -1,18 +1,10 @@
 /* GENERAL */
 .ingrid-name {
-
   object-fit: contain;
   width: 75%;
-  /* max-height: 173px;
-  max-width: 1512px; */
-  /* display: inline-block; */
 }
 
 footer {
-  /* position: sticky;
-  bottom: 0;
-  left: 0;
-  right: 0; */
   font-size: 12px;
   font-family: 'Source Sans Pro', sans-serif;
   flex-shrink: 0;
@@ -25,7 +17,6 @@ footer a, footer a:hover {
 /* NAVIGATION */
 
 .menu-img {
-  /* min-width: 10vw; */
   max-height: 4vh;
   border-bottom: 3px solid transparent;
   transition-duration: 0.5s;
