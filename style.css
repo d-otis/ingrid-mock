@@ -17,6 +17,7 @@ footer a, footer a:hover {
 
 .menu-img {
   max-height: 4vh;
+  width: 80%;
   border-bottom: 3px solid transparent;
   transition-duration: 0.5s;
 }
