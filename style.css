@@ -21,14 +21,25 @@ footer a, footer a:hover {
 
 .menu-img {
   max-height: 4vh;
+  object-fit: contain;
   width: 80%;
   border-bottom: 3px solid transparent;
   transition-duration: 0.5s;
 }
 
+#digital-art-menu-img {
+  /* border: 1px solid red; */
+  width: 90%;
+}
+
 .menu-img:hover {
   border-bottom: 3px solid rgb(179, 179, 179);
   transition-duration: 0.75s;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
 }
 
 /* INDEX */
@@ -104,24 +115,28 @@ article.single-card .card-title {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .test {
-    display: none;
+    /* display: none; */
   }
+
 }
 
 @media screen and (max-width: 576px) {
-  header {
-    display: none;
+  .menu-img {
+    object-fit: contain;
   }
+}
 
-  .navbar {
-    /* flex-wrap: nowrap; */
+@media screen and (max-width: 768px) {
+  .ingrid-name {
+    display: none;
   }
 
   .ingrid-sm {
     object-fit: contain;
     display: inline;
-    align-self: center
+    align-self: center;
+    /* border: 1px solid pink */
   }
 }
