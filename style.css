@@ -28,7 +28,6 @@ footer a, footer a:hover {
 }
 
 #digital-art-menu-img {
-  /* border: 1px solid red; */
   width: 90%;
 }
 
@@ -44,30 +43,21 @@ footer a, footer a:hover {
 
 /* INDEX */
 .index-card {
-  border: 0;
+  text-align: center;
 }
 
-.index-card h4 {
-  /* margin-top: 40%; */
+.index-card .card-title {
   position: absolute;
   bottom: 0;
-  margin-right: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 0 5px 5px 0;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
 }
 
 article.index-card {
-  /* border-bottom: 3px solid transparent; */
-  padding: 5px;
   transition-duration: 0.5s;
 }
 
 article.index-card:hover {
-  /* border-bottom: 3px solid red; */
   transition-duration: 0.5s;
   transform: scale(1.009);
 }
@@ -83,16 +73,13 @@ article.single-card .card-title {
 }
 
 .card-text.about-text a {
-  /* text-decoration: underline; */
   border-bottom: 2px solid rgb(179, 179, 179);
   color: #212529;
-  /* transition-duration: 0.75s; */
 }
 
 .card-text.about-text a:hover {
   text-decoration: none;
   border-bottom: 2px transparent;
-  /* transition-duration: 0.75s; */
 }
 
 .card-text.art-meta {
@@ -137,6 +124,5 @@ article.single-card .card-title {
     object-fit: contain;
     display: inline;
     align-self: center;
-    /* border: 1px solid pink */
   }
 }
