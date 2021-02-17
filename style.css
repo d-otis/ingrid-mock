@@ -3,6 +3,10 @@
   object-fit: contain;
 }
 
+.ingrid-sm {
+  display: none;
+}
+
 footer {
   font-size: 12px;
   font-family: 'Source Sans Pro', sans-serif;
