@@ -36,10 +36,10 @@ footer a, footer a:hover {
   transition-duration: 0.75s;
 }
 
-.navbar-nav {
+/* .navbar-nav {
   display: flex;
   justify-content: center;
-}
+} */
 
 /* INDEX */
 .index-card {
