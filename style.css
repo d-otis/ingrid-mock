@@ -53,9 +53,14 @@ footer a, footer a:hover {
   font-size: clamp(1.5rem, 1.75vw, 3rem);
   text-transform: uppercase;
   background-color: rgb(255, 255, 255, 0.15);
-  padding: 2px;
+  /* padding: 2px; */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+
+  margin-right: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 0 5px 5px 0;
 }
 
 article.index-card {
