@@ -36,6 +36,10 @@ footer a, footer a:hover {
   transition-duration: 0.75s;
 }
 
+.nav-link {
+  text-align: center;
+}
+
 /* INDEX */
 .index-card {
   text-align: center;
